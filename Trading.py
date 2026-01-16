@@ -18,7 +18,7 @@ Denna app skannar dina favoritaktier för att hitta:
 st.sidebar.header("Inställningar")
 
 # Standardlista med aktier
-default_tickers = "VOLV-B.ST, ERIC-B.ST, HM-B.ST, SEB-A.ST, SWED-A.ST, AZN.ST, INVE-B.ST, AAPL, MSFT, TSLA"
+default_tickers = "ABB.ST, ALFA.ST, ALIV-SDB.ST, ASSA-B.ST, ATCO-A.ST, ATCO-B.ST, AZN.ST, BOL.ST, ELUX-B.ST, ERIC-B.ST, ESSITY-B.ST, EVO.ST, GETI-B.ST, HEXA-B.ST, HM-B.ST, INVE-B.ST, KINV-B.ST, NDA-SE.ST, NIBE-B.ST, SAAB-B.ST, SAND.ST, SBB-B.ST, SCA-B.ST, SEB-A.ST, SHB-A.ST, SINCH.ST, SKF-B.ST, SWED-A.ST, TEL2-B.ST, TELIA.ST, VOLV-B.ST"
 user_tickers = st.sidebar.text_area("Ange aktier (separera med komman):", value=default_tickers, height=150)
 
 dagar_framat = st.sidebar.slider("Sök rapporter inom antal dagar:", min_value=1, max_value=60, value=21)
